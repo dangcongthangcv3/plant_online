@@ -3,10 +3,12 @@ let navbar = document.querySelector('.navbar')
 var header = document.querySelector('.header-3')
 
 menu.addEventListener('click', () => {
+    // debugger
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 })
 window.onscroll = () => {
+    // debugger
     menu.classList.remove('fa-times')
     navbar.classList.remove('active')
     if (window.scrollY > 250) {

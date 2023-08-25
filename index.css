@@ -127,14 +127,14 @@ html{
 #menu-bar {
     font-size: 3rem;
     color: #666;
-    border: 1rem solid #666;
+    border: .1rem solid #666;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
     cursor: pointer;
     display: none;
 }
 
-.header-3.active{
+.header-3 .active{
     position: fixed;
     top: 0; right: 0; left: 0;
 }
@@ -211,9 +211,11 @@ body{
         border-top: .1rem solid rgba(0, 0, 0, .3);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
-    .header-3 .navbar .active{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    /* nav .navbar .active{color: #3A9943 !important;} */
+    .header-3 .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important
     }
+    
     .header-3 .navbar a{
         display: block;
         margin: 1.5rem 0;
