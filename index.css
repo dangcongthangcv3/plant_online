@@ -134,7 +134,7 @@ html{
     display: none;
 }
 
-.header-3 .active{
+.header-3.active{
     position: fixed;
     top: 0; right: 0; left: 0;
 }
