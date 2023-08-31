@@ -1,3 +1,4 @@
+/* CHUNG */
 /* FONT FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
@@ -29,6 +30,7 @@ html{
     scroll-padding-top: 7rem;
 }
 
+/* BÀI LÀM */
 .header-1,
 .header-2,
 .header-3 {
@@ -138,7 +140,6 @@ html{
     position: fixed;
     top: 0; right: 0; left: 0;
 }
-
 
 
 
