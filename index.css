@@ -1,6 +1,6 @@
 /* CHUNG */
 /* FONT FAMILY */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
     --green: #3A9943;
@@ -24,10 +24,10 @@
 }
 
 html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+    font-size: 62.5%; /* Mặc định font-size là 16px => 62.5% là 10px */
+    overflow-x: hidden; /* ẩn thanh scroll - khi chiều rộng vượt ra màn hình */
+    scroll-behavior: smooth; /* Khi cuộn scroll mượt hơn*/
+    scroll-padding-top: 0rem; /* Khoảng cách từ trang web đến thành phần*/
 }
 
 section{
@@ -46,6 +46,8 @@ section{
 .btn:hover{
     background: #333;
 }
+
+
 /* BÀI LÀM */
 .header-1,
 .header-2,
