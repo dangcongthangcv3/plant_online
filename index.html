@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant selling</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="header-1">
+      <div class="share">
+        <span>Follow us:</span>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="call">
+        <span>call us:</span>
+        <a href="#">+123-456-7890</a>
+      </div>
+    </div>
+    <div class="header-2">
+      <a href="#" class="logo"><i class="fas fa-seedling"></i>LOGO</a>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here.." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </div>
+    <div class="header-3">
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="#" id="#home">Home</a>
+        <a href="#" id="#category">Category</a>
+        <a href="#" id="#product">Product</a>
+        <a href="#" id="#deal">Deal</a>
+        <a href="#" id="#contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        <a href="#"><i class="fa fa-heart"></i></a>
+        <a href="#"><i class="fa fa-user-circle"></i></a>
+      </div>
+    </div>
+
+    <!-- Home  -->
+    <section id="home" class="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box" style="background: url('img/slider1.jpg')">
+              <div class="content">
+                <span>Upto 75% off</span>
+                <h3>plant big sale special offer</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box" style="background: url('img/slider2.jpg')">
+              <div class="content">
+                <span>Upto 45% off</span>
+                <h3>plant big sale special offer</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box" style="background: url('img/slider3.jpg')">
+              <div class="content">
+                <span>Upto 65% off</span>
+                <h3>plant big sale special offer</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- close home -->
+
+    <!-- banner -->
+    <section class="banner-container">
+      <div class="banner">
+        <img src="img/banner1.jpg" alt="..." />
+        <div class="content">
+          <span>New arrivals</span>
+          <h3>Home plants</h3>
+          <a href="#" class="btn"> Shop now</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="img/banner2.jpg" alt="..." />
+        <div class="content">
+          <span>New arrivals</span>
+          <h3>Home plants</h3>
+          <a href="#" class="btn"> Shop now</a>
+        </div>
+      </div>
+    </section>
+    <!-- close banner -->
+
+    <!-- catetoey section starts -->
+    <section class="category" id=" category">
+      <h1 class="heading">shop by catetory</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/cat1.jpg" alt=".." />
+          <div class="content">
+            <h3>Bonsai</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/cat2.jpg" alt=".." />
+          <div class="content">
+            <h3>plants for house</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/cat3.jpg" alt=".." />
+          <div class="content">
+            <h3>Plants for office</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="img/cat4.jpg" alt=".." />
+          <div class="content">
+            <h3>Gift plants</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- catetoey section ends -->
+    <!-- custom js file link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
