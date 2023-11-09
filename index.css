@@ -51,6 +51,7 @@ section{
     font-size: 1.7rem;
     cursor: pointer;
 }
+
 .btn:hover{
     background: #333;
 }
@@ -79,7 +80,7 @@ section{
 
 
 .header-1 span {
-    font-weight: ligh   ter;
+    font-weight: lighter;
     color: #fff;
     font-size: 1.7rem;
 }
@@ -102,6 +103,7 @@ section{
 
 .header-2 .logo i {
     color: yellow;
+    padding-right: .7rem;
 }
 
 .header-2 .search-bar-container {
@@ -116,62 +118,11 @@ section{
 .header-2 .search-bar-container #search-bar {
     width: 100%;
     background: none;
-    text-transform: none;
-    color: #fff;
-    font-size: 1.7rem;
-}
-.header-1, .header-2, .header-3{
-    display: flex; align-items: center;
-    justify-content: space-between;
-    padding: 1rem 9%;
-    background-color: var(--green);
-}
-.header-1{
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-}
-.header-3{
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    background-color: #fff;
-    position: relative;
-    z-index: 10000;
-}
-.header-1 span{
-    font-size: 1.7rem;
-    font-weight: lighter;
-    color: #fff;
-}
-.header-1 a{
-    color: #fff;
-    padding: 0 .7rem;
-    font-size: 2rem;
-}
-.header-1 a:hover{
-    color: yellow;
-}
-.header-2 .logo{
-    font-size: 3rem;
-    font-weight: bolder;
-    color: #fff;
-}
-.header-2 i{
-    color: yellow;
-    padding-right: .7rem;
-}
-.header-2 .search-bar-container{
-    width: 50rem;
-    background: rgba(255, 255, 255, .2);
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
-    border-radius: .5rem;
-}
-.header-2 #search-bar{
-    width: 100%;
-    color: #fff;
-    font-size: 1.7rem;
     text-transform: capitalize;
-    background: none;
+    color: #fff;
+    font-size: 1.7rem;
 }
+
 /* --------- ------- */
 /* -------------------- Chia khung phan 2 của header ----------------- */
 .header-2 .search-bar-container #search-bar::placeholder {
@@ -429,12 +380,14 @@ section{
     flex-wrap: wrap;
     gap: 2rem;
 }
+
 .icons-container .icon{
     padding: 2rem 0;
     display: flex;
     align-items: center;
     flex: 1 1 25rem;
 }
+/*
 .icons-container .icon .content{
     padding-left: 2rem;
 }
@@ -445,7 +398,7 @@ section{
 .icons-container .icon .content p{
     font-size: 1.5rem;
     color: #666;
-}
+} */
 
 /* DEAL */
 .deal .row{

@@ -19,9 +19,9 @@ window.onscroll = () => {
     }
 
     if (window.scrollY > 250) {
-        scrollTop.style.display= 'initial'
+        scrollTop.style.display = 'initial'
     } else {
-        scrollTop.style.display= 'none'
+        scrollTop.style.display = 'none'
     }
 }
 var swiper = new Swiper(".home-slider", {
