@@ -1,5 +1,5 @@
 /* CHUNG */
-/* FONT FAMILY */ /*updaye*/
+/* FONT FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
@@ -387,7 +387,6 @@ section{
     align-items: center;
     flex: 1 1 25rem;
 }
-/*
 .icons-container .icon .content{
     padding-left: 2rem;
 }
@@ -398,7 +397,7 @@ section{
 .icons-container .icon .content p{
     font-size: 1.5rem;
     color: #666;
-} */
+}
 
 /* DEAL */
 .deal .row{
