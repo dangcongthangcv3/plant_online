@@ -129,14 +129,14 @@ section{
     text-transform: capitalize;
     color: #ddd;
 }
-.header-2 .search-bar-container #search-label{
+.header-2 .search-bar-container label{
     color: #fff;
     cursor: pointer;
     font-size: 2rem;
     padding: 0 .5rem;
 }
 
-.header-2 .search-bar-container #search-label:hover {
+.header-2 .search-bar-container label:hover {
     color: yellow;
 }
 
@@ -175,20 +175,17 @@ section{
 .home {
     padding-top: 0;
 }
-
 .home .home-slider {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     border: .1rem solid rgba(0, 0, 0, .3);
     border-top: 0;
 }
-
 .home .home-slider .box {
     background-size: cover !important;
     background-position: center !important;
     min-height: 55rem;
     position: relative;
 }
-
 .home .home-slider .box .content {
     position: absolute;
     top: 50%;
@@ -196,12 +193,10 @@ section{
     transform: translateY(-50%);
     max-width: 50rem;
 }
-
 .home .home-slider .box .content span {
     font-size: 3rem;
     color: #444;
 }
-
 .home .home-slider .box .content h3 {
     font-size: 6rem;
     color: #333;
@@ -325,6 +320,7 @@ section{
 .product .box-container .box:hover .icons{
     right: 1rem;
 }
+/* Phan 2 */
 .product .box-container .box .icons a{
     height: 4rem;
     width: 4rem;
@@ -380,7 +376,6 @@ section{
     flex-wrap: wrap;
     gap: 2rem;
 }
-
 .icons-container .icon{
     padding: 2rem 0;
     display: flex;
@@ -493,6 +488,8 @@ section{
     font-size: 1.5rem;
     color: #666;
 }
+
+/* FOOTER */
 .footer .box-container{ 
     display: flex;
     flex-wrap: wrap;
@@ -503,11 +500,6 @@ section{
 }
 .footer .box-container .box h3{
     color:#333;
-    font-size: 2.5rem;
-    padding: 1rem 0;
-}
-.footer .box-container .box h3{
-    color: #333;
     font-size: 2.5rem;
     padding: 1rem 0;
 }
@@ -556,8 +548,6 @@ section{
     color: #fff
 }
 
-
-
 /* RESPONSIVE */
 body{
     height: 200rem;
@@ -568,7 +558,6 @@ body{
     }
 }
 @media (max-width:991px) {
-
     .header-1,
     .header-2,
     .header-3 {
@@ -594,8 +583,7 @@ body{
     /* nav .navbar .active{color: #3A9943 !important;} */
     .header-3 .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important
-    }
-    
+    }    
     .header-3 .navbar a{
         display: block;
         margin: 1.5rem 0;

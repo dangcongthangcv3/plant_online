@@ -35,9 +35,8 @@ var swiper = new Swiper(".home-slider", {
     },
     loop: true
 });
-
 let countDate = new Date('june 1, 2024 00:00:00').getTime();
-
+//#endregion
 function countDown() {
     let now = new Date().getTime();
     gap = countDate - now;
@@ -60,3 +59,5 @@ function countDown() {
 setInterval(function () {
     countDown()
 }, 1000)
+
+
